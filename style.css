@@ -3,14 +3,22 @@ nav{
     justify-content: space-between;
     margin:40px 120px;
 }
+
 .header{
     background-image: url("images/header_bg.png"), url("developer.png");
     background-repeat: no-repeat;
     background-position: right bottom,left;
 }
-   
+a{  
+    text-decoration: none;
+}
 
-
+.btn:hover{
+    background-color: blue;
+}
+.b1:hover{
+    background-color: green;
+}
 .b1{
     height: 50px;
     background-color: orangered;
@@ -20,6 +28,7 @@ nav{
     font-size: 20px;
     padding:15px 30px;
     font-weight: 700;
+   
 }
 .b2{
     height: 50px;
@@ -32,6 +41,7 @@ nav{
     font-weight: 700;
 
 }
+
 ul{
     display:flex;
     align-items: center;
